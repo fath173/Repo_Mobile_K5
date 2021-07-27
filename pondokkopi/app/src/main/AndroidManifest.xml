@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fathor.pondokkopi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_jcc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.Auth.LupaPasswordActivity"></activity>
+        <activity android:name=".Activity.Cart.CheckoutActivity" />
+        <activity android:name=".Activity.Auth.UpdateAlamat" />
+        <activity android:name=".Activity.Auth.UpdateFoto" />
+        <activity android:name=".Activity.Orders.TestimoniOrdersActivity" />
+        <activity android:name=".Activity.Orders.DetailOrdersActivity" />
+        <activity android:name=".Activity.Orders.PaymentActivity" />
+        <activity android:name=".Activity.Auth.UpdateBio" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Auth.RegisterActivity" />
+        <activity android:name=".Activity.Auth.LoginActivity" />
+        <activity android:name=".Activity.ProductDetails" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/menu_testi"
+        android:enabled="true"
+        android:icon="@drawable/ic_review"
+        android:title="Testi"/>
+    <item
+        android:id="@+id/menu_cart"
+        android:enabled="true"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart"/>
+    <item
+        android:id="@+id/menu_orders"
+        android:enabled="true"
+        android:icon="@drawable/ic_list"
+        android:title="Orders"/>
+    <item
+        android:id="@+id/menu_account"
+        android:enabled="true"
+        android:icon="@drawable/ic_account"
+        android:title="Account"/>
+</menu>
